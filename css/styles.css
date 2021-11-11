@@ -3,7 +3,6 @@ body {
 }
 
 /*************** TITLE-SECTION **************/
-
 #title {
   background-color: #ff4c68;
 }
@@ -47,14 +46,14 @@ h1 {
 }
 
 .apple, .play {
-  margin-right: 10px;
+  margin-right: 25px;
 }
 
 .iphone-img {
   height: 560px;
   transform: rotate(23deg);
   position: absolute;
-z-index: 0;
+  z-index: 0;
 }
 
 #title {
@@ -64,7 +63,6 @@ z-index: 0;
 }
 
 /************ Features Section ************/
-
 #features {
   position: relative;
   padding: 7% 15%;
@@ -112,7 +110,6 @@ z-index: 0;
 }
 
 /************** TESTIMONIALS-SECTION **************/
-
 #testimonials {
   text-align: center;
   background-color: #ef8172;
@@ -147,70 +144,106 @@ z-index: 0;
   margin: 0 10px;
 }
 
-#pricing{
+#pricing {
   font-family: 'Montserrat', sans-serif;
   padding: 100px;
   text-align: center;
-
 }
 
-h2{
+.card-header {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
   font-weight: bold;
   font-size: 2.7rem;
 }
 
-.pricing-column{
-  padding: 2% 3%;
-
+.pricing-column {
+  padding: 4% 3%;
 }
 
-@media (max-width: 1075px){
+/******************** FOOTER SECTION ************************/
+.cta-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 2.9rem;
+  color: #fff;
+  line-height: 1.5;
+}
 
-  .iphone-img{
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 17%;
+  text-align: center;
+}
+
+.cta-buttons {
+  margin-top: 50px;
+}
+
+#footer {
+  text-align: center;
+  padding: 5% 10%;
+}
+
+.footer-icon {
+  text-decoration: none;
+  color: #454242;
+  margin-right: 12px;
+}
+
+.footer-text {
+  padding-top: 2%;
+  color: #454242;
+}
+
+/******************* MEDIA QUERIES **********************/
+@media (max-width: 1075px) {
+  .iphone-img {
     position: static;
     transform: rotate(0);
     height: 500px;
     margin: 7%;
     display: block;
     margin: 7% auto;
-
   }
 
-  #title{
+  #title {
     height: auto;
     text-align: center;
     /* margin: auto auto 70px auto; */
   }
 
-  .title{
-  margin: auto;
-  padding: auto 10%;
+  .title {
+    margin: auto;
+    padding: auto 10%;
   }
 
-  h1{
+  h1 {
     position: static;
     padding: 30px 100px 30px 100px;
   }
 
-  .toggler{
+  .toggler {
     text-align: right;
     padding-right: 50px;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     text-align: left;
     padding-left: 0;
     margin-left: 0;
     margin-left: 50px;
   }
 
-  .brand{
+  .brand {
     text-align: left;
   }
 }
 
 @media (max-width: 438px) {
- body{
-   font-size: 2rem;
- }
+  body {
+    font-size: 2rem;
+  }
 }
