@@ -5,6 +5,8 @@ body {
 /*************** TITLE-SECTION **************/
 #title {
   background-color: #ff4c68;
+  position: relative;
+  height: 600px;
 }
 
 h1 {
@@ -56,11 +58,6 @@ h1 {
   z-index: 0;
 }
 
-#title {
-  /* overflow: hidden; */
-  position: relative;
-  height: 600px;
-}
 
 /************ Features Section ************/
 #features {
@@ -222,7 +219,7 @@ h2 {
 
   h1 {
     position: static;
-    padding: 30px 100px 30px 100px;
+
   }
 
   .toggler {
@@ -231,19 +228,66 @@ h2 {
   }
 
   .navbar-brand {
+    font-size: 2.3rem;
     text-align: left;
     padding-left: 0;
     margin-left: 0;
     margin-left: 50px;
   }
 
-  .brand {
+  /* .brand {
     text-align: left;
-  }
+  } */
 }
 
-@media (max-width: 438px) {
-  body {
-    font-size: 2rem;
+@media (max-width: 500px) and (min-width: 360px){
+
+  .feature-header{
+    font-size: 1.8rem;
+  }
+
+  .feature-text{
+    font-size: 1.2rem;
+  }
+
+  .title-img{
+    margin: 5% auto;
+    padding-bottom: 5.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+.iphone-img{
+  transform: rotate(10deg);
+  width: 230px;
+  height: auto;
+}
+
+.apple, .play{
+  margin-bottom: 6%;
+  margin-right: 0;
+}
+
+.navigation{
+  margin-bottom: 8%;
+}
+
+.navbar-brand{
+  font-size: 2.3rem;
+  margin-left: 17%;
+}
+
+.nav-element{
+  padding: 0;
+}
+
+.toggler{
+  padding-right: 7%;
+}
+
+  h1 {
+    padding: 3% 6%;
+    font-size: 2.9rem;
+    text-align: center;
   }
 }
