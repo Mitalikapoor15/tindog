@@ -58,7 +58,11 @@ h1 {
   z-index: 0;
 }
 
-
+/*
+.toggler{
+  position: absolute;
+  margin-right: 0
+} */
 /************ Features Section ************/
 #features {
   position: relative;
@@ -181,7 +185,7 @@ h2 {
 
 #footer {
   text-align: center;
-  padding: 5% 10%;
+  padding: 7% 15%;
 }
 
 .footer-icon {
@@ -191,6 +195,7 @@ h2 {
 }
 
 .footer-text {
+  margin-bottom: 0;
   padding-top: 2%;
   color: #454242;
 }
@@ -217,77 +222,111 @@ h2 {
     padding: auto 10%;
   }
 
+  /* .apple, .play{
+  width: 50%;
+} */
   h1 {
     position: static;
-
   }
 
-  .toggler {
+  /* .toggler {
     text-align: right;
     padding-right: 50px;
-  }
-
-  .navbar-brand {
-    font-size: 2.3rem;
-    text-align: left;
-    padding-left: 0;
-    margin-left: 0;
-    margin-left: 50px;
-  }
-
-  /* .brand {
-    text-align: left;
   } */
 }
 
-@media (max-width: 500px) and (min-width: 360px){
-
-  .feature-header{
+@media (max-width: 500px) and (min-width: 360px) {
+  .feature-header {
     font-size: 1.8rem;
   }
 
-  .feature-text{
+  .feature-text {
     font-size: 1.2rem;
   }
 
-  .title-img{
+  .title-img {
     margin: 5% auto;
     padding-bottom: 5.5%;
     padding-left: 5%;
     padding-right: 5%;
   }
 
-.iphone-img{
-  transform: rotate(10deg);
-  width: 230px;
-  height: auto;
-}
+  .iphone-img {
+    transform: rotate(10deg);
+    width: 230px;
+    height: auto;
+  }
 
-.apple, .play{
-  margin-bottom: 6%;
-  margin-right: 0;
-}
+  .apple, .play {
+    display: block;
+    margin: 3% auto 4%;
+    width: 170px;
+  }
 
-.navigation{
-  margin-bottom: 8%;
-}
+  .navigation {
+    margin-bottom: 8%;
+  }
 
-.navbar-brand{
-  font-size: 2.3rem;
-  margin-left: 17%;
-}
+  .navbar-brand {
+    font-size: 2.3rem;
+    text-align: left;
+    padding-left: 0;
+    margin-left: 17%;
+  }
 
-.nav-element{
-  padding: 0;
-}
+  .nav-element {
+    padding: 0;
+  }
 
-.toggler{
-  padding-right: 7%;
-}
+  .toggler {
+    padding-right: 7%;
+  }
 
   h1 {
-    padding: 3% 6%;
-    font-size: 2.9rem;
+    padding: 3% 6% 2%;
+    font-size: 2.95rem;
     text-align: center;
   }
+
+  .main-carousel {
+    padding: 7% 15%;
+  }
+
+  .testimonial-header {
+    font-size: 2.5rem;
+  }
+
+  .testimonial-image {
+    display: block;
+    width: 35%;
+    margin: 15px auto;
+  }
+
+  .car-item {
+    height: 900px;
+  }
+
+  .press-logo {
+    width: 35%;
+    padding-top: 4%;
+  }
+
+  #pricing {
+    padding: 65px;
+    font-size: 1.1rem;
+  }
+
+  .pricing-header {
+    font-size: 2.5rem;
+  }
+
+  #cta {
+    padding: 7% 10%;
+    font-size: 2.9rem;
+  }
+
+  /* #collapser{
+  position: absolute;
+  z-index: 1;
+} */
 }
